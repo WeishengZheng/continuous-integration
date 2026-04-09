@@ -17,4 +17,9 @@ public class Calculadora {
 	public double multiplication(double op1, double op2) {
 		return op1 * op2;
 	}
+
+	public double power(double op1, double op2) {
+		if (double = 0) return;
+		else: op1 * op1 * power(op1, op2 - 1);
+	}
 }
