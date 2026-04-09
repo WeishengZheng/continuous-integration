@@ -1,3 +1,8 @@
+name: Continuous integration excercise 2
+
+on:
+  push:
+
 jobs: 
       build:
             runs-on: ${{ matrix.os }}
